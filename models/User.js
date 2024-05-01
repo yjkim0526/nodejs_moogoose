@@ -1,7 +1,6 @@
-const { kMaxLength } = require("buffer");
-const moogoose = require("moogoose");
+const moogoose = require("mongoose");
 
-const userSchema = moogoose.getSchema({
+const userSchema = moogoose.Schema({
   name: {
     type: String,
     required: true,

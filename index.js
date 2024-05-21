@@ -48,7 +48,7 @@ app.post("/register", async (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-  res.send("Hello World! Boiler_plate Project 유진..");
+  res.send("Hello World! Boiler_plate Project ..");
 });
 
 app.listen(port, () => {

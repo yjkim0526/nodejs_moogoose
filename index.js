@@ -23,7 +23,7 @@ try {
 }
 
 app.get("/", (req, res) => {
-  res.send("Hello World! Boiler_plate Project 유진..");
+  res.send("Hello World! Boiler_plate Project ..");
 });
 
 // 회원가입 할때 필요한 정보들을 가져오면 DB에 저장
